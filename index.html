@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مدرسة النصر الابتدائية</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+ <div class="wrap bar">
+  <div class="logo">🏫 مدرسة النصر الابتدائية</div>
+  <nav id="nav"><ul>
+   <li><a href="#home">الرئيسية</a></li><li><a href="#about">عن المدرسة</a></li><li><a href="#grades">الصفوف</a></li><li><a href="#activities">الأنشطة</a></li><li><a href="#news">الأخبار</a></li><li><a href="#schedule">الجدول</a></li><li><a href="#notices">الإعلانات</a></li><li><a href="#contact">اتصل بنا</a></li>
+  </ul></nav>
+  <div class="tools"><button class="icon" id="theme" aria-label="تبديل الوضع">🌙</button><button class="icon" id="menuBtn" aria-label="القائمة">☰</button></div>
+ </div>
+</header>
+
+<div class="hero" id="home">
+ <div class="wrap">
+  <h1>أهلًا بكم في مدرسة النصر الابتدائية</h1>
+  <p>نبني جيلًا متعلمًا ومبدعًا، في بيئة آمنة تجمع بين العلم والقيم والمرح.</p>
+  <a class="btn" href="#contact">سجّل ابنك الآن</a><a class="btn alt" href="#about">تعرّف علينا</a>
+ </div>
+</div>
+
+<div class="wrap stats">
+ <div class="stat"><b data-n="650">0</b><span>طالب وطالبة</span></div>
+ <div class="stat"><b data-n="42">0</b><span>معلم ومعلمة</span></div>
+ <div class="stat"><b data-n="18">0</b><span>فصل دراسي</span></div>
+ <div class="stat"><b data-n="25">0</b><span>سنة من الخبرة</span></div>
+</div>
+
+<section id="honor"><div class="wrap honor">
+ <figure class="zoom"><img src="images/honor.jpg" alt="تسليم شهادة شكر وتقدير بمكتب إدارة المدرسة" loading="lazy"><figcaption>تسليم شهادة شكر وتقدير</figcaption></figure>
+ <div class="honor-text">
+  <h2>تكريم وشهادات تقدير</h2>
+  <p>تحرص مدرسة النصر الابتدائية على تقدير الجهود المتميزة وتكريم كل من يسهم في نجاح العملية التعليمية، إيمانًا بأن الشكر والتقدير يصنعان بيئة عمل محفّزة ومليئة بالإيجابية.</p>
+  <a class="btn" href="#activities">شاهد أنشطة المدرسة</a>
+ </div>
+</div></section>
+
+<section id="about"><div class="wrap">
+ <h2>عن المدرسة</h2>
+ <p class="sub">رسالتنا تقديم تعليم متميز يراعي قدرات كل طفل ويغرس فيه حب التعلم.</p>
+ <div class="grid">
+  <div class="card"><div class="em">🎯</div><h3>رؤيتنا</h3><p>مدرسة رائدة تُخرّج أطفالًا واثقين ومبدعين ومتمسكين بقيمهم.</p></div>
+  <div class="card"><div class="em">📚</div><h3>رسالتنا</h3><p>توفير تعليم نشط يعتمد على اللعب والتجربة وتنمية المهارات الأساسية.</p></div>
+  <div class="card"><div class="em">🤝</div><h3>قيمنا</h3><p>الاحترام، الصدق، التعاون، وحب الوطن.</p></div>
+ </div>
+</div></section>
+
+<section id="grades" style="background:color-mix(in srgb,var(--primary) 5%,var(--bg))"><div class="wrap">
+ <h2>الصفوف الدراسية</h2>
+ <p class="sub">اختر الصف لمعرفة موادّه.</p>
+ <div class="tabs" id="tabs"></div>
+ <div class="grid" id="subjects"></div>
+</div></section>
+
+<section id="activities"><div class="wrap">
+ <h2>أنشطة المدرسة</h2>
+ <p class="sub">لحظات من الأنشطة التي يشارك فيها تلاميذنا.</p>
+ <div class="tabs" id="gtabs">
+  <button class="tab on" data-f="all">الكل</button><button class="tab" data-f="art">الفن وإعادة التدوير</button><button class="tab" data-f="yard">الساحة والجداريات</button><button class="tab" data-f="learn">الفصول والتعلم</button>
+ </div>
+ <div class="gallery" id="gallery"><figure class="shot" data-c="art"><img src="images/recycle-1.jpg" alt="فن إعادة التدوير: تلوين الزجاجات البلاستيكية" loading="lazy"><figcaption>فن إعادة التدوير: تلوين الزجاجات البلاستيكية</figcaption></figure><figure class="shot" data-c="art"><img src="images/recycle-2.jpg" alt="ورشة عمل جماعية بمشاركة المعلمين والتلاميذ" loading="lazy"><figcaption>ورشة عمل جماعية بمشاركة المعلمين والتلاميذ</figcaption></figure><figure class="shot" data-c="art"><img src="images/bottles.jpg" alt="زجاجات ملونة بأيدي التلاميذ" loading="lazy"><figcaption>زجاجات ملونة بأيدي التلاميذ</figcaption></figure><figure class="shot" data-c="art"><img src="images/collect.jpg" alt="جمع الزجاجات البلاستيكية لإعادة استخدامها" loading="lazy"><figcaption>جمع الزجاجات البلاستيكية لإعادة استخدامها</figcaption></figure><figure class="shot" data-c="art"><img src="images/drawing-1.jpg" alt="عرض لوحات التلوين الجميلة" loading="lazy"><figcaption>عرض لوحات التلوين الجميلة</figcaption></figure><figure class="shot" data-c="art"><img src="images/drawing-2.jpg" alt="ورشة الرسم والتلوين" loading="lazy"><figcaption>ورشة الرسم والتلوين</figcaption></figure><figure class="shot" data-c="yard"><img src="images/letters.jpg" alt="ساحة الحروف الهجائية" loading="lazy"><figcaption>ساحة الحروف الهجائية</figcaption></figure><figure class="shot" data-c="yard"><img src="images/play.jpg" alt="التعلّم باللعب في ساحة المدرسة" loading="lazy"><figcaption>التعلّم باللعب في ساحة المدرسة</figcaption></figure><figure class="shot" data-c="yard"><img src="images/mural.jpg" alt="جداريات تزيّن ممرات المدرسة" loading="lazy"><figcaption>جداريات تزيّن ممرات المدرسة</figcaption></figure><figure class="shot" data-c="learn"><img src="images/writing-1.jpg" alt="التدريب على كتابة الحروف" loading="lazy"><figcaption>التدريب على كتابة الحروف</figcaption></figure><figure class="shot" data-c="learn"><img src="images/writing-2.jpg" alt="تلميذة تعرض لوحة الكتابة الخاصة بها" loading="lazy"><figcaption>تلميذة تعرض لوحة الكتابة الخاصة بها</figcaption></figure><figure class="shot" data-c="learn"><img src="images/class.jpg" alt="أجواء مرحة داخل الفصل" loading="lazy"><figcaption>أجواء مرحة داخل الفصل</figcaption></figure><figure class="shot" data-c="learn"><img src="images/class-1.jpg" alt="أجواء إيجابية داخل الفصل" loading="lazy"><figcaption>أجواء إيجابية داخل الفصل</figcaption></figure><figure class="shot" data-c="learn"><img src="images/class-2.jpg" alt="مشاركة التلاميذ في الحصة" loading="lazy"><figcaption>مشاركة التلاميذ في الحصة</figcaption></figure><figure class="shot" data-c="learn"><img src="images/board-1.jpg" alt="الشرح على السبورة التفاعلية" loading="lazy"><figcaption>الشرح على السبورة التفاعلية</figcaption></figure><figure class="shot" data-c="learn"><img src="images/board-2.jpg" alt="درس الخط العربي" loading="lazy"><figcaption>درس الخط العربي</figcaption></figure><figure class="shot" data-c="learn"><img src="images/class-3.jpg" alt="صورة جماعية مع تلاميذ الفصل" loading="lazy"><figcaption>صورة جماعية مع تلاميذ الفصل</figcaption></figure><figure class="shot" data-c="yard"><img src="images/students.jpg" alt="تلاميذ المدرسة بالزي المدرسي" loading="lazy"><figcaption>تلاميذ المدرسة بالزي المدرسي</figcaption></figure></div>
+</div></section>
+
+<div class="lb" id="lb" aria-hidden="true"><button class="icon" id="lbx" aria-label="إغلاق">✕</button><img id="lbimg" alt=""><p id="lbcap"></p></div>
+
+<section id="news"><div class="wrap">
+ <h2>أخبار وفعاليات</h2>
+ <p class="sub">آخر ما يحدث في المدرسة.</p>
+ <div class="grid">
+  <div class="card"><div class="date">الأسبوع القادم</div><h3>🎨 معرض الرسم السنوي</h3><p>معرض لأعمال التلاميذ الفنية بحضور أولياء الأمور.</p></div>
+  <div class="card"><div class="date">الشهر الحالي</div><h3>⚽ بطولة الصفوف الرياضية</h3><p>منافسات ودية في كرة القدم والجري بين الصفوف.</p></div>
+  <div class="card"><div class="date">قريبًا</div><h3>📖 مسابقة القراءة</h3><p>مسابقة لتشجيع القراءة مع جوائز قيّمة للفائزين.</p></div>
+ </div>
+</div></section>
+
+<section id="schedule" style="background:color-mix(in srgb,var(--primary) 5%,var(--bg))"><div class="wrap">
+ <h2>الجدول اليومي</h2>
+ <p class="sub">مواعيد اليوم الدراسي.</p>
+ <div class="scroll"><table>
+  <tr><th>الوقت</th><th>النشاط</th></tr>
+  <tr><td>7:45</td><td>الطابور الصباحي</td></tr>
+  <tr><td>8:15 – 10:15</td><td>الحصص الأولى والثانية</td></tr>
+  <tr><td>10:15 – 10:45</td><td>الفسحة</td></tr>
+  <tr><td>10:45 – 12:45</td><td>الحصص الثالثة والرابعة</td></tr>
+  <tr><td>12:45</td><td>الانصراف</td></tr>
+ </table></div>
+</div></section>
+
+<section id="notices"><div class="wrap">
+ <h2>الجداول والإعلانات</h2>
+ <p class="sub">اضغط على أي ورقة لعرضها كاملة.</p>
+ <div class="docs"><figure class="doc"><img src="images/welcome.jpg" alt="أهلًا بكم بالعام الدراسي الجديد" loading="lazy"><figcaption>أهلًا بكم بالعام الدراسي الجديد</figcaption></figure><figure class="doc"><img src="images/attendance.jpg" alt="جدول حضور التلاميذ في الأسبوع الأول" loading="lazy"><figcaption>جدول حضور التلاميذ في الأسبوع الأول</figcaption></figure><figure class="doc"><img src="images/proposal.jpg" alt="مقترح المدرسة للفترة الصباحية 2025/2026" loading="lazy"><figcaption>مقترح المدرسة للفترة الصباحية 2025/2026</figcaption></figure><figure class="doc"><img src="images/periods-2026.jpg" alt="مواعيد الحصص بمدارس الفترة الواحدة 2025/2026" loading="lazy"><figcaption>مواعيد الحصص بمدارس الفترة الواحدة 2025/2026</figcaption></figure><figure class="doc"><img src="images/discipline.jpg" alt="لائحة التحفيز التربوي والانضباط المدرسي" loading="lazy"><figcaption>لائحة التحفيز التربوي والانضباط المدرسي</figcaption></figure><figure class="doc"><img src="images/periods-2025.jpg" alt="مواعيد الحصص (الصباحية والمسائية) 2024/2025" loading="lazy"><figcaption>مواعيد الحصص (الصباحية والمسائية) 2024/2025</figcaption></figure><figure class="doc"><img src="images/nov-exams.jpg" alt="جداول امتحانات شهر نوفمبر 2024/2025" loading="lazy"><figcaption>جداول امتحانات شهر نوفمبر 2024/2025</figcaption></figure><figure class="doc"><img src="images/sixth-exam.jpg" alt="جدول امتحان الصف السادس — الفصل الأول" loading="lazy"><figcaption>جدول امتحان الصف السادس — الفصل الأول</figcaption></figure><figure class="doc"><img src="images/final-eval.jpg" alt="جداول التقويم النهائي للصفين الأول والثاني" loading="lazy"><figcaption>جداول التقويم النهائي للصفين الأول والثاني</figcaption></figure><figure class="doc"><img src="images/exam-rules.jpg" alt="تعليمات خاصة بالامتحانات" loading="lazy"><figcaption>تعليمات خاصة بالامتحانات</figcaption></figure><figure class="doc"><img src="images/exam-tips.jpg" alt="نصائح هامة للامتحان" loading="lazy"><figcaption>نصائح هامة للامتحان</figcaption></figure></div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+ <h2>اتصل بنا</h2>
+ <p class="sub">اترك رسالتك وسنرد عليك في أقرب وقت.</p>
+ <form id="form" novalidate>
+  <input id="name" placeholder="اسم ولي الأمر" required>
+  <input id="phone" type="tel" placeholder="رقم الهاتف" required>
+  <textarea id="text" rows="4" placeholder="رسالتك" required></textarea>
+  <button class="btn" type="submit">إرسال</button>
+  <div class="msg" id="msg"></div>
+ </form>
+</div></section>
+
+<footer>© <span id="y"></span> مدرسة النصر الابتدائية — جميع الحقوق محفوظة</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
